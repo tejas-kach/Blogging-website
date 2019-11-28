@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Brawler);
+body{
+	background-image: url("img/bg15.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: inherit;
+	background-size: cover;
+	}
+
+
+.main_body{
+	width:85%;
+	margin: 10px auto;
+	border:1px solid black ;
+	background-color: white;
+	max-height:all;
+	font-family: Brawler;
+	background-image: url("img/bg16.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: inherit;
+	background-size: cover;
+}
+
+.ttwlogo{
+	background-color: white;
+	margin-left: -15.2px;
+	margin-right: -15.2px;
+	border-bottom:1px solid black;
+
+}
+
+.nav1{
+	box-shadow:0px 3px 5px grey;
+	margin: 0px;
+}
+.navbar-dark .navbar-nav .nav-item a{
+	color:white !important;
+	font-size: 1.2em; 
+
+}
+.nav1 li{
+	text-align:left;
+}
+.nav1 li a:hover{
+	background-color:red ;
+}
+.menuicon{
+	align-items: center;
+	float: right;
+	font-size: 1.3em;
+	color: white;
+}
+.signup{
+	color:white;
+	background-color: red;
+	border:0px;
+	font-size: 1.2em;
+}
+.signup:hover{
+	background-color: #32a852;
+	color: white;
+}
+
+.navbar-dark .innernav .nav-item a{
+	color:white;
+	font-size: 1.2em; 
+
+}
+.nav2 li{
+	text-align:left;
+}
+.nav2 li a:hover{
+	background-color:red ;
+	transform:scale(1.02); 
+}
+
+.nav2 li .active{
+	background-color: #32a852;
+
+}
+.nav2 form button{
+	background-color: red;
+	color: white;
+	border: 0px;
+	margin-right: 6px;
+	border-radius: 25px;
+	height: 34px;
+}
+.browseicon{
+	align-items: center;
+	float: right;
+	font-size: 1.3em;
+	color: white;
+}
+.nav2 form input{
+	border-radius: 25px;
+	height: 34px;
+}
+
+
+
+#twittericon{
+	padding: 8px;
+	position:relative;
+	display: block;
+	color:white;
+}
+#twittericon:hover{color:#1da1f2;}
+
+#facebookicon{
+	padding: 10px;
+	display: block;
+	position:relative;
+	color:white;
+}
+#facebookicon:hover{color: #3b5998;}
+
+#pinteresticon{
+	padding: 8px;
+	display: block;
+	position:relative;
+	color:white;
+}
+#pinteresticon:hover{color:  #c8232c;}
+
+#googleplusicon{
+	padding: 8px;
+	display: block;
+	position:relative;
+	color:white;
+}
+#googleplusicon:hover{color:rgb(221,75,57);}
+
+#rssicon{
+	padding: 8px;
+	display: block;
+	position: relative;
+	color:white;
+}
+#rssicon:hover{color: #ee802f;}
+
+
+i:hover{
+	cursor:pointer;
+	transform:scale(1.03); 
+}
+
+.post{
+	margin: 10px auto;
+	border :1px solid black;
+	height: auto;
+	background-color: white;
+	border-radius:10px;
+	box-shadow: 0 0 20px #000;
+}
+.sidenavblock{
+	margin: 10px auto;
+	height: auto;
+	text-decoration: none;
+}	
+.randompost{
+	background-color: white;
+	border-radius: 10px;
+	margin-left: -5px;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 12px;
+	box-shadow: 0 0 20px #000;
+	height: initial;
+}
+	
+.recentpost{
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-left: -5px;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 12px;
+	box-shadow: 0 0 20px #000;
+	height: initial;
+}
+
+
+
+.content_text{
+	font-size:21.5px;
+}
+
+
+footer{
+	width:100%;
+	height: 30px;
+	background-color: #121212;
+	box-shadow:0px 3px 5px grey;
+	
+}
+
+.icons{
+	position: absolute;
+	height: 30px;
+	width:155px;
+
+}
+.icons #twittericon{
+	width: 30px;
+	float: left;
+	
+}
+.icons #facebookicon{
+	width: 30px;
+	float: left;
+	margin-top: -2px;
+
+}
+.icons #googleplusicon{
+	width: 30px;
+	float: left;
+	
+}
+.icons #pinteresticon{
+	width: 30px;
+	float: left;
+}	
+.icons #rssicon{
+	width: 30px;
+	float: left;
+}
+
+footer p{
+	float: right;
+	color: white;
+}
+
+.pagination{
+	margin-left: 15px;
+	font-size: 1.2em;
+}
+.pagination .page-link{
+	background-color:#343a40;
+	color: white;
+	border:0;
+	margin-right: 15px;
+	border-radius: 25px;
+	padding: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+.pagination .active .page-link{
+	background-color: #32a852;
+}
+.pagination .page-link:hover{
+	transform:scale(1.02);
+	color:white;
+	background-color: red; 
+}
+.readmorebtn a{
+	color: white;
+	text-decoration: none;
+	border:0;
+}
+
+.readmorebtn:hover{
+	color:white;
+	background-color: red;
+	transform:scale(1.05);
+}
+.sortbtn select{
+	width: 100%;
+	margin-top: 10px;
+	font-size: 1.2em;
+	background-color: #343a40;
+	color: white;
+	border-radius: 8px;
+	box-shadow: 0 0 5px #000;
+}
+.sortbtn option:hover{
+	background-color: red;
+}
