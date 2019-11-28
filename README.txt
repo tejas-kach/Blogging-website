@@ -9,13 +9,11 @@ the database name should be "techtricksworld" and all the tables should be impor
 
 
 
-This project is the internship project developed by amit , tejas and ankit together as a team members. To run this prerequisites are: xampp server and computer with internet connection
+This project is the  project developed by amit , tejas and ankit together as a team members. To run this prerequisites are: xampp server and computer with internet connection
 
 Initially we need to index.php file to get homepage for the site Then we have a login and registration for the user The user can  view all the post and add a comment.
 
 Then on visiting /db.php we will have a login page for the admin where admin can write the post ,update it or delete it.
-
-All the required files for the site are provided in the zip file and batabase is also given.
 
 This is the community driven website and also needs further development to make a full fledged blog/aritcle website.
 
