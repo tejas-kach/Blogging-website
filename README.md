@@ -26,16 +26,16 @@ email: amitrane138@gmail.com  login: amit password: 	amit123
 
 email: tejasmaheshkachare@gmail.com login: tejas password: tejas123
 
+Home page
 ![](Home.png)
 
-
+Admin Login page
 ![](Login.png)
 
-
+Admin dashboard
 ![](Dashboard1.png)
-
 
 ![](Dashboard.png)
 
-
+Commenet section
 ![](Comment.png)
